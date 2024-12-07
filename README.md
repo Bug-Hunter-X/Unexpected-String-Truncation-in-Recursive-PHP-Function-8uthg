@@ -1,0 +1,3 @@
+# Unexpected String Truncation in Recursive PHP Function
+
+This repository demonstrates a subtle bug in a PHP recursive function that unexpectedly truncates strings within nested arrays. The function is designed to process data, recursively handling nested arrays and truncating strings exceeding a certain length. However, due to the recursive nature and how it manipulates the original array directly, it exhibits unexpected behavior. The solution provides a corrected version of the function that avoids this error.
